@@ -1,7 +1,9 @@
 package com.example.conjuntoresidencial.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 public class Visitante {
     @Id
